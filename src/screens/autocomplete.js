@@ -23,6 +23,7 @@ const Autocomplete = () =>
             if (status !== 'granted') 
             {
                 showToast( 'Permisos denegados' )
+                setOrigin( { latitude: 20.97537, longitude: -89.61696 } )
                 return
             }
       
@@ -39,7 +40,6 @@ const Autocomplete = () =>
         })()
 
     }, [])
-
 
     const showToast = ( message = 'Error' ) => {
         ToastAndroid.show(message, ToastAndroid.SHORT)
