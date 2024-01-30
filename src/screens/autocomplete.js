@@ -22,7 +22,7 @@ const Autocomplete = () =>
 
             if (status !== 'granted') 
             {
-                showToast( 'Permisos denegados' )
+                showToast( 'Permisos denegados.' )
                 setOrigin( { latitude: 20.97537, longitude: -89.61696 } )
                 return
             }
@@ -58,8 +58,8 @@ const Autocomplete = () =>
     }
 
     const [ origin, setOrigin ] = React.useState({
-        latitude: 20.97537,
-        longitude: -89.61696
+        latitude: 19.42847,
+        longitude: -99.12766
     })
 
     return (
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     autocompleteContainer: {
         zIndex: 99999999999,
         flex: 0.5,
-        marginTop: 30,
+        marginTop: 40,
         padding: 15
     },
     autocomplete: {

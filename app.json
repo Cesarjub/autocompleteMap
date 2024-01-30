@@ -26,10 +26,16 @@
         "LOCATION",
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
-      ]
+      ],
+      "package": "com.cesarjub.autocompletern"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34ce06c2-654e-4592-9f08-66de552dffb3"
+      }
     }
   }
 }
